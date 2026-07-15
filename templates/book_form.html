@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<form action="/booking" method="post">
+  <div class="container">
+    <h1>Book Flight</h1>
+    <p>Enter booking details below.</p>
+    <hr>
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
+
+    <label for="arrival"><b>Arrival</b></label>
+    <input type="text" placeholder="Arrival place" name="arrival" id="arrival" required>
+
+    <label for="departure"><b>Departure</b></label>
+    <input type="text" placeholder="Departure place" name="departure" id="departure" required>
+
+    <hr>
+    <button type="submit" class="registerbtn">Book</button>
+  </div>
+</form>
+</body>
+</html>

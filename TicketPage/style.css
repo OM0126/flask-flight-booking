@@ -1,0 +1,15 @@
+.bd{
+  background-image: url("./assets/bg.JPG");
+  background-size: cover;
+}
+.page{
+
+  background-image: url("./assets/bgimg.png");
+  background-size: cover;
+  border:2px solid black;
+  border-radius: 5px;
+  padding:20px 30px 30px 30px;
+  position: absolute;
+  top:10%;
+  left:20%;
+}
